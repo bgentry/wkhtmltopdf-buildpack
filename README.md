@@ -6,7 +6,7 @@ binary with your environment.
 ## Versions
 
 * Buildpack:   `0.2`
-* wkhtmltopdf: `0.12.3` by default
+* wkhtmltopdf: `0.12.5`
 
 ## Usage
 
@@ -16,13 +16,6 @@ into the dynos:
 
 ```bash
 $ heroku buildpacks:add https://github.com/dscout/wkhtmltopdf-buildpack.git
-```
-
-If you want to use a `wkhtmltopdf` version other than 0.12.3, set
-`WKHTMLTOPDF_VERSION`:
-
-```bash
-heroku config:set WKHTMLTOPDF_VERSION="0.12.4"
 ```
 
 ### Clearing Repo Cache
